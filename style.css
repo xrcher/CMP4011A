@@ -10,7 +10,7 @@ header{
     min-width: 100vh;
     background-position: center;
     background-size: cover;
-    padding: 10px 10%;
+
     overflow: hidden;
 }
 
@@ -19,8 +19,11 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #76de91;
-    border-radius: 15px;
+    background-color: #fff;
+    border-radius: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .logo{
@@ -64,17 +67,21 @@ nav ul li a{
 body.wallpaper {
     background-image: url("assets/landscape.jpg");
     background-size: cover;
+    width: 100%;
 }
 
 
 .content{
     margin-top: 10%;
     max-width: 600px;
+    width: 800%;
+    min-width: 100vh;
+    padding: 10px 10%;
 }
 
 .content h1{
-    font-size: 70px;
-    color: #222;
+    font-size: 60px;
+    color: #fff;
 }
 
 .content p{
@@ -97,4 +104,36 @@ section{
 
 style.background{
     width: 200%;
+}
+
+.goalsMenu{
+    margin:100px 20px 20px 20px;
+    padding: 50px 100px 400px 50px;
+    background-color: rgba(7, 5, 42, 0.215);
+    border-radius: 50px;
+    text-align: left;
+    width: 1200px;
+    height: 600px;
+}
+
+.goalsMenu h1{
+    color: #fff;
+    font-size: 30px;
+}
+
+.goalsBillboard{
+    background-color: darkgray;
+    padding: 20px 20px 20px 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    height: 450px;
+    width: 500px;
+    border-radius: 50px;
+}
+
+
+div.content p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
 }
