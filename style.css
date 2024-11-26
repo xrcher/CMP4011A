@@ -46,17 +46,12 @@ nav ul li a{
     font-size: 14px;
     border-radius: 30px;
     border-top-right-radius: 0;
+    transition: all 0.3s linear;
 }
 
-.signup-btn :hover{
-    display: inline-block;
-    text-decoration: none;
-    padding: 14px 40px;
-    color: #fff;
-    background-image: linear-gradientrgb(51, 139, 147);
-    font-size: 14px;
-    border-radius: 30px;
-    border-top-right-radius: 0;
+.signup-btn:hover{
+    background-image: linear-gradient(to bottom, rgb(182, 244, 146), rgb(51, 139, 147));
+    transform: scale(1.05);
 }
 
 .content{
@@ -72,4 +67,8 @@ nav ul li a{
 .content p{
     margin: 10px 0 30px;
     color: #333;
+}
+
+.active{
+    border-bottom: 3px solid #32312f;
 }
