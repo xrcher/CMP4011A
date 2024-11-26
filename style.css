@@ -19,6 +19,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #76de91;
+    border-radius: 15px;
 }
 
 .logo{
@@ -59,6 +61,12 @@ nav ul li a{
     border-top-right-radius: 0;
 }
 
+body.wallpaper {
+    background-image: url("assets/landscape.jpg");
+    background-size: cover;
+}
+
+
 .content{
     margin-top: 10%;
     max-width: 600px;
@@ -72,4 +80,21 @@ nav ul li a{
 .content p{
     margin: 10px 0 30px;
     color: #333;
+}
+
+hr.rounded {
+    border-top: 3px solid #bbb;
+}
+
+section{
+    width: 100%;
+    min-width: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+    overflow: hidden;
+}
+
+style.background{
+    width: 200%;
 }
