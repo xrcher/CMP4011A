@@ -15,10 +15,12 @@ body{
 }
 
 nav{
-    padding: 10px 0;
+    padding: 10p    x 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #76de91;
+    border-radius: 15px;
 }
 
 .logo{
@@ -46,13 +48,24 @@ nav ul li a{
     font-size: 14px;
     border-radius: 30px;
     border-top-right-radius: 0;
-    transition: all 0.3s linear;
 }
 
-.signup-btn:hover{
-    background-image: linear-gradient(to bottom, rgb(182, 244, 146), rgb(51, 139, 147));
-    transform: scale(1.05);
+.signup-btn :hover{
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #fff;
+    background-image: linear-gradientrgb(51, 139, 147);
+    font-size: 14px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
 }
+
+body.wallpaper {
+    background-image: url("assets/landscape.jpg");
+    background-size: cover;
+}
+
 
 .content{
     margin-top: 10%;
@@ -69,6 +82,19 @@ nav ul li a{
     color: #333;
 }
 
-.active{
-    border-bottom: 3px solid #32312f;
+hr.rounded {
+    border-top: 3px solid #bbb;
+}
+
+section{
+    width: 100%;
+    min-width: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+    overflow: hidden;
+}
+
+style.background{
+    width: 200%;
 }
