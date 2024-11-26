@@ -37,23 +37,23 @@ nav ul li a{
     font-weight: 400;
 }
 
-.login-btn{
+.signup-btn{
     display: inline-block;
     text-decoration: none;
     padding: 14px 40px;
     color: #fff;
-    background-image: linear-gradient(to left, rgb(182, 244, 146), rgb(51, 139, 147));
+    background-image: linear-gradient(to top, rgb(182, 244, 146), rgb(51, 139, 147));
     font-size: 14px;
     border-radius: 30px;
     border-top-right-radius: 0;
 }
 
-.register-btn{
+.signup-btn :hover{
     display: inline-block;
     text-decoration: none;
     padding: 14px 40px;
     color: #fff;
-    background-image: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+    background-image: linear-gradientrgb(51, 139, 147);
     font-size: 14px;
     border-radius: 30px;
     border-top-right-radius: 0;
