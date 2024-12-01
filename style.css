@@ -10,7 +10,7 @@ header{
     min-width: 100vh;
     background-position: center;
     background-size: cover;
-    padding: 10px 10%;
+
     overflow: hidden;
 }
 
@@ -19,6 +19,11 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #fff;
+    border-radius: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .logo{
@@ -46,25 +51,115 @@ nav ul li a{
     font-size: 14px;
     border-radius: 30px;
     border-top-right-radius: 0;
-    transition: all 0.3s linear;
 }
 
-.signup-btn:hover{
-    background-image: linear-gradient(to bottom, rgb(182, 244, 146), rgb(51, 139, 147));
-    transform: scale(1.05);
+.signup-btn :hover{
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #fff;
+    background-image: linear-gradientrgb(51, 139, 147);
+    font-size: 14px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
 }
 
-.content{
+body {
+    width: 100%;
+}
+
+.wallpaper{
+    background-image: url("assets/landscape.jpg");
+    background-size: cover;
+}
+
+.sec1{
     margin-top: 10%;
     max-width: 600px;
+    width: 800%;
+    min-width: 100vh;
+    padding: 10px 10%;
 }
 
-.content h1{
-    font-size: 70px;
-    color: #222;
+.sec1 h1{
+    font-size: 60px;
+    color: #fff;
 }
 
-.content p{
+.sec1 p{
+    margin: 10px 0 30px;
+    color: white;
+}
+
+.sec2 p {
     margin: 10px 0 30px;
     color: #333;
+}
+
+.sec2 h1 {
+    font-size: 60px;
+    color: forestgreen;
+}
+
+hr.rounded {
+    border-top: 3px solid #bbb;
+}
+
+section.wallpaper {
+    width: 100%;
+    min-width: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+    overflow: hidden;
+}
+
+section.information {
+    margin-top: 1%;
+    min-width: 100vh;
+    padding: 20px 10%;
+}
+
+style.background{
+    width: 200%;
+}
+
+.goalsMenu{
+    margin:100px 20px 20px 20px;
+    padding: 50px 100px 400px 50px;
+    background-color: rgba(7, 5, 42, 0.215);
+    border-radius: 50px;
+    text-align: left;
+    width: 1200px;
+    height: 600px;
+}
+
+.goalsMenu h1{
+    color: #fff;
+    font-size: 30px;
+}
+
+.goalsBillboard{
+    background-color: darkgray;
+    padding: 20px 20px 20px 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    height: 450px;
+    width: 500px;
+    border-radius: 50px;
+}
+
+
+div.content p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.zoom {
+    transition: transform .3s;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
 }
