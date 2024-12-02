@@ -10,7 +10,6 @@ header{
     min-width: 100vh;
     background-position: center;
     background-size: cover;
-
     overflow: hidden;
 }
 
@@ -42,6 +41,10 @@ nav ul li a{
     font-weight: 400;
 }
 
+nav ul li a:hover {
+    color: green;
+}
+
 .signup-btn{
     display: inline-block;
     text-decoration: none;
@@ -54,14 +57,7 @@ nav ul li a{
 }
 
 .signup-btn :hover{
-    display: inline-block;
-    text-decoration: none;
-    padding: 14px 40px;
-    color: #fff;
     background-image: linear-gradientrgb(51, 139, 147);
-    font-size: 14px;
-    border-radius: 30px;
-    border-top-right-radius: 0;
 }
 
 body {
@@ -162,4 +158,23 @@ div.content p {
 
 .zoom:hover {
     transform: scale(1.1);
+}
+
+.active{
+    border-bottom: 3px solid #32312f;
+}
+
+@media (max-width: 768px) {
+    nav ul{
+        display: flex;
+        align-items: center;
+    }
+
+    .signup-btn{
+        padding: 10px 20px;
+    }
+
+    .sec1 h1{
+        font-size: 40px;
+    }
 }
