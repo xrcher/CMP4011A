@@ -7,11 +7,12 @@
     <meta name="keywords" content="Environment, Sustainability, Climate and Development">
     <meta name="author" content="webdevgroup">
     <link rel="stylesheet" href="style.css">
+    <script src="scripts/indexScript.js" defer></script>
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav class="shadow">
             <p> </p>
             <a href="index.html">
                 <img src="assets/logo-en.svg" alt="United Nations Development Goals" class="logo">
@@ -19,89 +20,50 @@
             <p> </p>
             <ul>
                 <li class="active"><a href="#">Home</a></li>
-                <li><a href="teaminfo.html">Team</a></li>
                 <li><a href="unsdg.html">UN Development Goals</a></li>
+                <li><a href="teaminfo.html">The Team</a></li>
             </ul>
             <p> </p>
             <div class="zoom">
                 <a href="newslet.html" class="signup-btn">Sign Up to the Latest News!</a>
             </div>
-            <p> </p>
         </nav>
     </header>
 
     <section class="wallpaper-home">
-        <div class="sec1">
-            <h1>United Nations<br>Development Goals</h1>
-            <p>The 2030 Agenda for Sustainable Development, adopted by all United Nations Member States in 2015,
-                provides a shared blueprint for peace and prosperity for people and the planet, now and into the
-                future.</p>
-        </div>
+        <article class="sec1">
+            <div id="jsonwallpaperhome"></div>
+        </article>
     </section>
 
     <section class="information">
         <h1 class="greenhead">Goals For Good.</h1>
-            <div class="sec2">
-                <p>The United Nations Sustainable Development Goals (SDGs) are a bold, universal framework designed
-                    to address the world's most pressing challenges by 2030. These 17 interconnected goals aim to
-                    create a sustainable future for all, leaving no one behind. From ending poverty and hunger
-                    to combating climate change and fostering peace, the SDGs reflect a shared vision for
-                    global progress. <br>
-                    <br>
-                    Progress on these goals leads to a ripple effect of positive outcomes: healthier communities,
-                    stronger economies, and a more resilient planet. By aligning efforts with the SDGs, we can
-                    pave the way for a better future—one where every person has the opportunity to thrive.
-                    Join us in supporting the SDGs and becoming part of a global movement for change.
-                    Together, we can make a difference.
-                </p>
-                <img src="assets/enviroment.png" width="313" height="199">
-                <br>
-            </div>
+        <article class="sec2">
+            <div id="jsoninformation"></div>
+            <img src="assets/enviroment.png" width="313" height="199">
+        </article>
     </section>
+
+    <br>
 
     <section class="information2">
-            <div class="sec4">
-                <br>
-                <h1 class="greenhead">Making Effective Change.</h1>
-                <p>Achieving the United Nations Sustainable Development Goals (SDGs) requires more than good
-                    intentions—it demands focused, strategic action. Making effective change means transforming
-                    aspirations into tangible results, ensuring that progress is both measurable and sustainable.
-                    Here’s how we can collectively drive meaningful impact:
-                </p>
-
-                <h2>1. Collaborating Across Borders</h2>
-                <p>Effective change begins with unity. By fostering partnerships among governments, organizations,
-                    and communities, we can pool resources, expertise, and innovative ideas to tackle global
-                    challenges. From public-private collaborations to grassroots movements, collective efforts
-                    amplify impact.</p>
-
-                <h2>2. Prioritizing Local Solutions</h2>
-                <p>Global change starts at the local level. Tailoring strategies to meet the unique needs of
-                    communities ensures that solutions are inclusive and practical. Empowering local leaders
-                    and integrating indigenous knowledge creates sustainable, culturally relevant progress. </p>
-
-                <h2>3. Driving Policy and Advocacy</h2>
-                <p>Strong policies are the backbone of effective change. Advocating for legislation and
-                    investments that align with the SDGs helps create systems that support equality,
-                    environmental protection, and economic growth. By influencing policy, we can address root
-                    causes and institutional barriers.</p>
-            </div>
+        <h1 class="greenhead">Making Effective Change.</h1>
+        <article class="sec4">
+            <div id="jsonInformation2"></div>
+        </article>
     </section>
-
 
     <section class="video-section">
         <video autoplay muted loop class="background-video">
             <source src="assets/cleanup.mp4" type="video/mp4">
-            Your browser does not support the video tag.
+            Your browser does not support video.
         </video>
-        <div class="sec3">
-            <h1>View Our Goals</h1>
-            <p>Have a look at our three chosen goals to make a difference.</p>
-            <p>‎</p>
+        <article class="sec3">
+            <div id =jsonviewgoals></div>
             <a href="unsdg.html">
                 <button class="button-goals" role="button">UN Development Goals</button>
             </a>
-        </div>
+        </article>
     </section>
 
     <footer>
