@@ -78,17 +78,19 @@ nav ul li a:hover {
 .wallpaper-goal1{
     background-image: url("assets/goal1.jpg");
     background-size: cover;
-    padding: 100px;
+    padding: 80px;
 }
 
 .wallpaper-goal2{
     background-image: url("assets/goal2.jpg");
     background-size: cover;
+    padding: 126px;
 }
 
 .wallpaper-goal3{
     background-image: url("assets/goal3.jpg");
     background-size: cover;
+    padding: 126px;
 }
 
 /*=================================================================================*/
@@ -234,6 +236,12 @@ section.information2 {
     height: auto;
     z-index: -1;
     object-fit: cover;
+}
+
+.youtube {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 style.background{
