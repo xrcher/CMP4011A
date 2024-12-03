@@ -10,7 +10,6 @@ header{
     min-width: 100vh;
     background-position: center;
     background-size: cover;
-
     overflow: hidden;
 }
 
@@ -42,6 +41,10 @@ nav ul li a{
     font-weight: 400;
 }
 
+nav ul li a:hover {
+    color: green;
+}
+
 .signup-btn{
     display: inline-block;
     text-decoration: none;
@@ -54,14 +57,7 @@ nav ul li a{
 }
 
 .signup-btn :hover{
-    display: inline-block;
-    text-decoration: none;
-    padding: 14px 40px;
-    color: #fff;
-    background-image: linear-gradientrgb(51, 139, 147);
-    font-size: 14px;
-    border-radius: 30px;
-    border-top-right-radius: 0;
+    transform: scale(1.05) rotate(-1deg);
 }
 
 body {
@@ -91,14 +87,61 @@ body {
     color: white;
 }
 
+.sec2 {
+    display:flex;
+    align-items:center;
+}
+
 .sec2 p {
     margin: 10px 0 30px;
     color: #333;
 }
 
-.sec2 h1 {
+.sec4 {
+    align-items:center;
+}
+
+.sec4 h2 {
+    color: #00730e;
+}
+
+.sec4 p {
+    margin: 10px 0 30px;
+    color: #333;
+}
+
+
+.greenhead {
     font-size: 60px;
     color: forestgreen;
+}
+
+.sec3 h1 {
+    font-size: 80px;
+    color: #fff;
+}
+
+.sec3 p {
+
+}
+
+.button-goals {
+    background-color: #c2fbd7;
+    border-radius: 100px;
+    color: #fff;
+    background-image: linear-gradient(to top, rgb(182, 244, 146), rgb(51, 139, 147));
+    cursor: pointer;
+    padding: 7px 20px;
+    text-align: center;
+    transition: all 250ms;
+    border: 0;
+    font-size: 20px;
+}
+
+.button-goals:hover {
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25)
+    0 2px 4px,rgba(44,187,99,.25) 0 4px 8px;
+    transform: scale(1.05) rotate(-1deg);
 }
 
 hr.rounded {
@@ -118,6 +161,36 @@ section.information {
     margin-top: 1%;
     min-width: 100vh;
     padding: 20px 10%;
+    background-color: #fff;
+}
+
+.video-section {
+    position: relative;
+    height: 70vh; /* Full viewport height */
+    width: 100%;
+    overflow: hidden;
+}
+
+.background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; /* Send it behind content */
+    object-fit: cover; /* Ensures the video covers the section without distortion */
+}
+
+.sec3 {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 style.background{
@@ -149,7 +222,6 @@ style.background{
     border-radius: 50px;
 }
 
-
 div.content p {
     font-size: 18px;
     color: #fff;
@@ -162,4 +234,31 @@ div.content p {
 
 .zoom:hover {
     transform: scale(1.1);
+}
+
+.active{
+    border-bottom: 3px solid #32312f;
+}
+
+footer {
+    background-color: #000;
+    font-size: 0.9em;
+    text-align: left;
+    color: white;
+    padding: 50px;
+}
+
+@media (max-width: 768px) {
+    nav ul{
+        display: flex;
+        align-items: center;
+    }
+
+    .signup-btn{
+        padding: 10px 20px;
+    }
+
+    .sec1 h1{
+        font-size: 40px;
+    }
 }
