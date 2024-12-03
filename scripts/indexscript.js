@@ -1,4 +1,4 @@
-//=========================================INFORMATION========================================//
+//=========================================index.html========================================//
 
 const sectionElement1 = document.querySelector("#jsoninformation");
 const sectionElement2 = document.querySelector("#jsonwallpaperhome");
@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     sectionElement3.appendChild(jsoninformation2);
 
 
-                    // wallpaperhome
+                    // viewgoals
                     const jsonviewgoals = document.createElement("article");
                     jsonviewgoals.setAttribute("class", "services");
 
