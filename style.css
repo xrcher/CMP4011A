@@ -97,6 +97,20 @@ body {
     color: #333;
 }
 
+.sec4 {
+    align-items:center;
+}
+
+.sec4 h2 {
+    color: #00730e;
+}
+
+.sec4 p {
+    margin: 10px 0 30px;
+    color: #333;
+}
+
+
 .greenhead {
     font-size: 60px;
     color: forestgreen;
@@ -227,11 +241,11 @@ div.content p {
 }
 
 footer {
-    background-color: darkgrey;
+    background-color: #000;
     font-size: 0.9em;
     text-align: left;
     color: white;
-    padding: 30px;
+    padding: 50px;
 }
 
 @media (max-width: 768px) {
