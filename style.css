@@ -203,17 +203,16 @@ section.wallpaper {
 }
 
 section.information {
-    margin-top: 1%;
     min-width: 100vh;
     padding: 20px 10%;
-    background-color: #fff;
+    background-color: white;
 }
 
 section.information2 {
     margin-top: 1%;
     min-width: 100vh;
     padding: 20px 10%;
-    background-color: lightgrey;
+    background-color: #dedede;
 }
 
 /*=================================================================================*/
