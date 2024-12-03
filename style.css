@@ -1,8 +1,15 @@
+
+/*=================================================================================*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
 }
 
 header{
@@ -60,14 +67,31 @@ nav ul li a:hover {
     transform: scale(1.05) rotate(-1deg);
 }
 
-body {
-    width: 100%;
-}
+/*=================================================================================*/
 
-.wallpaper{
+.wallpaper-home{
     background-image: url("assets/landscape.jpg");
     background-size: cover;
+    padding: 50px;
 }
+
+.wallpaper-goal1{
+    background-image: url("assets/goal1.jpg");
+    background-size: cover;
+    padding: 100px;
+}
+
+.wallpaper-goal2{
+    background-image: url("assets/goal2.jpg");
+    background-size: cover;
+}
+
+.wallpaper-goal3{
+    background-image: url("assets/goal3.jpg");
+    background-size: cover;
+}
+
+/*=================================================================================*/
 
 .sec1{
     margin-top: 10%;
@@ -97,6 +121,31 @@ body {
     color: #333;
 }
 
+sec2 img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+.greenhead {
+    font-size: 60px;
+    color: forestgreen;
+}
+
+.sec3 {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.sec3 h1 {
+    font-size: 80px;
+    color: #fff;
+}
+
 .sec4 {
     align-items:center;
 }
@@ -110,19 +159,16 @@ body {
     color: #333;
 }
 
+/*=================================================================================*/
 
-.greenhead {
-    font-size: 60px;
-    color: forestgreen;
+.titlegoal {
+    padding: 40px;
+    text-align: center;
 }
 
-.sec3 h1 {
+.titlegoal h1 {
     font-size: 80px;
-    color: #fff;
-}
-
-.sec3 p {
-
+    color: #000;
 }
 
 .button-goals {
@@ -144,11 +190,8 @@ body {
     transform: scale(1.05) rotate(-1deg);
 }
 
-hr.rounded {
-    border-top: 3px solid #bbb;
-}
-
 section.wallpaper {
+    margin: 50px;
     width: 100%;
     min-width: 100vh;
     background-position: center;
@@ -163,6 +206,15 @@ section.information {
     padding: 20px 10%;
     background-color: #fff;
 }
+
+section.information2 {
+    margin-top: 1%;
+    min-width: 100vh;
+    padding: 20px 10%;
+    background-color: lightgrey;
+}
+
+/*=================================================================================*/
 
 .video-section {
     position: relative;
@@ -180,22 +232,15 @@ section.information {
     min-height: 100%;
     width: auto;
     height: auto;
-    z-index: -1; /* Send it behind content */
-    object-fit: cover; /* Ensures the video covers the section without distortion */
-}
-
-.sec3 {
-    position: relative;
-    z-index: 1;
-    color: white;
-    text-align: center;
-    top: 50%;
-    transform: translateY(-50%);
+    z-index: -1;
+    object-fit: cover;
 }
 
 style.background{
     width: 200%;
 }
+
+/*=================================================================================*/
 
 .goalsMenu{
     margin:100px 20px 20px 20px;
@@ -240,6 +285,8 @@ div.content p {
     border-bottom: 3px solid #32312f;
 }
 
+/*=================================================================================*/
+
 footer {
     background-color: #000;
     font-size: 0.9em;
@@ -252,6 +299,8 @@ footer p {
     margin-top: 10px;
     color: gray;
 }
+
+/*=================================================================================*/
 
 @media (max-width: 768px) {
     nav ul{
@@ -267,3 +316,5 @@ footer p {
         font-size: 40px;
     }
 }
+
+/*=================================================================================*/
