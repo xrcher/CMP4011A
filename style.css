@@ -69,6 +69,11 @@ body {
     background-size: cover;
 }
 
+.prefoot{
+    background-image: url("assets/cleanup.mp4");
+    background-size: cover;
+}
+
 .sec1{
     margin-top: 10%;
     max-width: 600px;
@@ -87,12 +92,17 @@ body {
     color: white;
 }
 
+.sec2 {
+    display:flex;
+    align-items:center;
+}
+
 .sec2 p {
     margin: 10px 0 30px;
     color: #333;
 }
 
-.sec2 h1 {
+.greenhead {
     font-size: 60px;
     color: forestgreen;
 }
