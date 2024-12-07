@@ -257,7 +257,7 @@ style.background{
 /*=================================================================================*/
 
 .goal1Card{
-    background-image: url(assets/turbines_sunset.jpg);
+    background-image: url(assets/turbine_sunset2.jpg);
     background-size: cover;
     margin:100px 20px 20px 20px;
     padding: 50px 100px 400px 50px;
@@ -266,6 +266,7 @@ style.background{
     text-align: left;
     width: 1200px;
     height: 600px;
+    color: #fff;
 }
 
 .goal2Card{
@@ -290,6 +291,11 @@ style.background{
     text-align: left;
     width: 1200px;
     height: 600px;
+}
+
+.goalHeading{
+    font-size: 50px;
+    color: white;
 }
 
 
