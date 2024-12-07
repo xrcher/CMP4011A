@@ -296,7 +296,7 @@ style.background{
 
 
 .goal2Card{
-    background-image: url(assets/turbines_sunset.jpg);
+    background-image: url(assets/melting_ice.jpg);
     background-size: cover;
     margin:100px 20px 20px 20px;
     padding: 50px 100px 400px 50px;
@@ -308,7 +308,7 @@ style.background{
 }
 
 .goal3Card{
-    background-image: url(assets/turbines_sunset.jpg);
+    background-image: url(assets/forests.jpg);
     background-size: cover;
     margin:100px 20px 20px 20px;
     padding: 50px 100px 400px 50px;
