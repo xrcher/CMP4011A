@@ -132,6 +132,16 @@ nav ul li a:hover {
     color: #333;
 }
 
+.sec2goals {
+
+    align-items:center;
+}
+
+.sec2goals p {
+    margin: 10px 0 30px;
+    color: #333;
+}
+
 .greenhead {
     font-size: 60px;
     color: forestgreen;

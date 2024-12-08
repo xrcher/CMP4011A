@@ -1,0 +1,33 @@
+{
+  "goal": "SDG 15:\nLife on Land",
+  "overview": "SDG Goal 15 aims to protect, restore, and promote the sustainable use of terrestrial ecosystems, manage forests sustainably, combat desertification, and halt biodiversity loss. It acknowledges the critical role that land ecosystems play in supporting life on Earth, providing essential resources, and mitigating climate change.\n",
+  "progress": "Protecting life on land is not only about preserving nature but ensuring the survival and well-being of humanity. By achieving SDG Goal 15, we can restore balance to Earth’s ecosystems, support sustainable livelihoods, and build resilience against climate change.",
+  "keyTargets": [
+    {
+      "title": "1. Conserve Terrestrial Ecosystems",
+      "description": "Protect ecosystems such as forests, wetlands, mountains, and drylands to preserve biodiversity and ecosystem services."
+    },
+    {
+      "title": "2. Combat Desertification",
+      "description": "Take action to combat desertification, restore degraded land, and ensure sustainable land management."
+    },
+    {
+      "title": "3. Halt Deforestation",
+      "description": "Promote the sustainable management of forests, combat deforestation, and restore degraded forests to increase reforestation."
+    },
+    {
+      "title": "4. Preserve Biodiversity",
+      "description": "Safeguard species at risk of extinction and promote the sustainable use of ecosystems to maintain genetic diversity."
+    },
+    {
+      "title": "5. Reduce Invasive Species",
+      "description": "Prevent the introduction of invasive alien species and reduce their impact on ecosystems and biodiversity."
+    }
+  ],
+  "footer": [
+    {
+      "title": "Copyright © 2024 United Nations",
+      "description": "Made by Pj, Vinisha, VJ and Archer ❤️"
+    }
+  ]
+}

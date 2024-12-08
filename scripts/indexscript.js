@@ -80,9 +80,24 @@ document.addEventListener("DOMContentLoaded", () => {
                     jsonviewgoals.appendChild(paraElement13);
                     sectionElement4.appendChild(jsonviewgoals);
 
+                    // footerlist
+                    const footerContainer = document.getElementById('footer');
+                    if (item.footer && Array.isArray(item.footer)) {
+                        item.footer.forEach(footer => {
+                            const footerTitle = document.createElement('h2');
+                            footerTitle.textContent = footer.title;
+
+                            const footerDescription = document.createElement('p');
+                            footerDescription.textContent = footer.description;
+
+                            //footer container item creator
+                            footerContainer.appendChild(footerTitle);
+                            footerContainer.appendChild(footerDescription);
+                        });
+                    }
                 });
             } else {
-                console.error("Invalid JSON format: Expected an array");
+                console.error("Invalid JSON format");
             }
         })
         .catch((error) => console.error("Error fetching JSON data:", error));
