@@ -548,11 +548,51 @@ footer p {
 
 /*Newslet*/
 
-.signup-content{
-    padding: 100px;
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(background.png);
-    
+.newslet-background{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(assets/forests.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
 }
 
+.signup-content{
+    padding: 150px;
+}
+
+.signup-content h1{
+    margin-top: 30px;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+form{
+    background: #fff;
+    display: flex;
+}
+
+form input{
+    border: 0;
+    padding: 10px 20px;
+    height: 70px;
+    width: 400px;
+    font-size: 16px;
+}
+
+form button{
+    background: #61b752;
+    border: none;
+    width: 90px;
+    cursor: pointer;
+}
+
+span{
+    color: #61b752;
+    margin-top: 10px;
+    display: block;
+}
+
+.hide{
+    display: none;
+}
