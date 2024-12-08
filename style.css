@@ -464,7 +464,7 @@ footer p {
     margin: 0 10px;
     position: relative;
     width: calc(25% - 20px);
-    min-height: 100px;
+    min-height: 200px;
     background: #fff;
     float: left;
     box-sizing: border-box;
@@ -504,9 +504,9 @@ footer p {
 
 .row .column .details{
     position: absolute;
-    bottom: -85px;
+    bottom: -70px;
     left: 0;
-    padding: 10px;
+    padding: 15px;
     box-sizing: border-box;
     background: rgba(0, 0, 0, .9);
     width: 100%;
@@ -515,7 +515,7 @@ footer p {
 }
 
 .row .column:hover .details{
-    bottom: -10px;
+    bottom: -20px;
 }
 
 .row .column .details h3{
@@ -536,6 +536,12 @@ footer p {
     text-transform: uppercase;
     position: relative;
     top: -6px;
+}
+
+.bio {
+    font-size: 12px; 
+    color: #333; 
+    line-height: 1.5; 
 }
 
 /*--------------------------------------*/
