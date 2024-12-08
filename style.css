@@ -418,7 +418,7 @@ footer p {
 /*teaminfo page css*/
 
 .page{
-    background-color: #32312f;
+    background-color: rgb(176,216,228);
 }
 
 .team{
@@ -452,8 +452,8 @@ footer p {
     margin-top: 20px;
     color: #fff;
     text-align: center;
-    border-left: 5px solid #f00;
-    border-right: 5px solid #f00;
+    border-left: 5px solid rgb(41, 202, 111);
+    border-right: 5px solid rgb(41, 202, 111);
 }
 
 .mgt50px{
@@ -464,11 +464,12 @@ footer p {
     margin: 0 10px;
     position: relative;
     width: calc(25% - 20px);
-    min-height: 200px;
+    min-height: 285px;
     background: #fff;
     float: left;
     box-sizing: border-box;
     overflow: hidden;
+    border-radius: 5px;
 }
 
 .row .column:before{
@@ -515,7 +516,7 @@ footer p {
 }
 
 .row .column:hover .details{
-    bottom: -20px;
+    bottom: 0;
 }
 
 .row .column .details h3{
@@ -528,10 +529,10 @@ footer p {
 }
 
 .row .column .details h3 span{
-    margin: 0;
+    margin: 3px;
     padding: 0;
     font-size: 14px;
-    color: #f00;
+    color: rgb(41, 202, 111);
     font-weight: 900;
     text-transform: uppercase;
     position: relative;
