@@ -26,7 +26,7 @@ fetch('json/goal2Data.json')
 
             const targetTitle = document.createElement('h2');
             targetTitle.textContent = target.title;
-            
+
             const targetDescription = document.createElement('p');
             targetDescription.textContent = target.description;
 

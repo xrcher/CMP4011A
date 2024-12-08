@@ -79,7 +79,7 @@ nav ul li a:hover {
 /*=================================================================================*/
 
 .wallpaper-home{
-    background-image: url("assets/landscape.jpg");
+    background-image: url("assets/landscape.jpg/");
     background-size: cover;
     padding: 50px;
 }
@@ -115,6 +115,7 @@ nav ul li a:hover {
 .sec1 h1{
     font-size: 60px;
     color: #fff;
+    text-shadow: 2px 3px #000;
 }
 
 .sec1 p{
@@ -155,6 +156,7 @@ nav ul li a:hover {
     text-align: center;
     top: 50%;
     transform: translateY(-50%);
+
 }
 
 .sec3 h1 {
