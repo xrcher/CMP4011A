@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Ved Joshi",
+        "bio": "Computer Science Student",
+        "image": "ved-joshi"
+    },
+    {
+        "name": "Pio Fausto",
+        "bio": "Computer Science Student",
+        "image": "pio-fausto"
+    },
+    {
+        "name": "Archer Wilson",
+        "bio": "Business Information Student",
+        "image": "archer-wilson"
+    },
+    {
+        "name": "Vinisha Yadav",
+        "bio": "Computer Science Student",
+        "image": "vinisha-yadav"
+    }
+]
