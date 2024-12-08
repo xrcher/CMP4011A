@@ -559,6 +559,7 @@ footer p {
 
 .signup-content{
     padding: 150px;
+    
 }
 
 .signup-content h1{
@@ -571,14 +572,17 @@ footer p {
 form{
     background: #fff;
     display: flex;
+    justify-content: space-between;
+    
 }
 
 form input{
+    flex: 1;
     border: 0;
     padding: 10px 20px;
     height: 70px;
-    width: 400px;
     font-size: 16px;
+    align-items: center;
 }
 
 form button{
@@ -592,6 +596,7 @@ span{
     color: #61b752;
     margin-top: 10px;
     display: block;
+    text-align: center;
 }
 
 .hide{
