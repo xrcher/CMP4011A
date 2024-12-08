@@ -191,23 +191,18 @@ nav ul li a:hover {
 
 .button-goals {
     margin-top: 25px;
-    background-color: #c2fbd7;
     border-radius: 100px;
-    color: #fff;
-    background-image: linear-gradient(to top, rgb(182, 244, 146), rgb(51, 139, 147));
-    cursor: pointer;
-    padding: 7px 20px;
-    text-align: center;
-    transition: all 250ms;
     border: 0;
+    color: #fff;
+    padding: 7px 20px;
+    background-image: linear-gradient(to top, rgb(182, 244, 146), rgb(51, 139, 147));
+    font-weight: bold;
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 550;
+    transition: .3s;
 }
 
 .button-goals:hover {
-    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px;
-    transform: scale(1.05) rotate(-1deg);
+        transform: scale(1.10)
 }
 
 section.wallpaper {
