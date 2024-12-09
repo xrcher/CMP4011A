@@ -21,14 +21,12 @@ header{
 }
 
 nav{
-
     border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #fff;
     position: fixed;
-    top: 0;
     width: 100%;
     padding: 10px;
     border-top-right-radius: 0;
@@ -393,7 +391,6 @@ div.content p {
 footer {
     background-color: #000;
     font-size: 0.9em;
-    text-align: left;
     color: white;
     padding: 50px;
 }
@@ -425,42 +422,33 @@ footer p {
 /*teaminfo page css*/
 
 .page{
-    background-color: rgb(176,216,228);
+    background-color: rgb(91, 175, 201);
 }
 
 .team{
     padding-top: 95px;
     height: 100vh;
-    box-sizing: border-box;
 }
 
 .container{
-    width: 80%;
-    margin: 50px auto;
+    width: 70%;
+    margin: auto auto;
 }
 
-.row{
-    position: relative;
-    width: 100%;
-    box-sizing: border-box;
-}
 
 .row h1{
     color: #fff;
     text-align: center;
-    margin: 20px 0;
-    padding: 0;
     font-weight: 700;
     font-size: 48px;
-    text-transform: uppercase;
 }
 
 .row p{
-    margin-top: 20px;
+    margin-top: 50px;
     color: #fff;
     text-align: center;
-    border-left: 5px solid rgb(41, 202, 111);
-    border-right: 5px solid rgb(41, 202, 111);
+    border-left: 5px solid rgb(59, 6, 138);
+    border-right: 5px solid rgb(59, 6, 138);
 }
 
 .mgt50px{
@@ -468,9 +456,9 @@ footer p {
 }
 
 .row .column{
-    margin: 0 10px;
+    margin: 10px;
     position: relative;
-    width: calc(25% - 20px);
+    width: calc(25% - 25px);
     min-height: 285px;
     background: #fff;
     float: left;
@@ -479,47 +467,24 @@ footer p {
     border-radius: 5px;
 }
 
-.row .column:before{
-    content: '';
-    position: absolute;
-    bottom: -100%;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgb(0, 187, 255);
-    z-index: 1;
-    transition: 0.5s;
-    mix-blend-mode: soft-light;
-}
-
-.row .column:hover:before{
-    bottom: 0;
-}
-
-.row .column .imgBox{
-    position: relative;
-}
-
 .row .column .imgBox img{
     width: 100%;
-    height: auto;
+    height: 100%;
     transition: 5s;
 }
 
-.row .column:hover .imgBox img{
-    transform: scale(1.25);
+.row .column .imgBox:hover img{
+    transform: scale(1.15);
 }
 
 .row .column .details{
     position: absolute;
     bottom: -70px;
-    left: 0;
-    padding: 15px;
+    padding: 10px;
     box-sizing: border-box;
     background: rgba(0, 0, 0, .9);
     width: 100%;
     transition: 0.5s;
-    z-index: 2;
 }
 
 .row .column:hover .details{
@@ -527,17 +492,11 @@ footer p {
 }
 
 .row .column .details h3{
-    margin: 0;
-    padding: 0;
     color: #fff;
     font-weight: 500;
-    text-align: right;
-    text-transform: uppercase;
 }
 
 .row .column .details h3 span{
-    margin: 3px;
-    padding: 0;
     font-size: 14px;
     color: rgb(41, 202, 111);
     font-weight: 900;
