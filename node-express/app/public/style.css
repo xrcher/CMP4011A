@@ -292,7 +292,6 @@ style.background{
     color: #fff;
 }
 
-
 .goal1Contentbox:hover{
     animation: fade-in 3s;
     animation-timeline: view(); 
