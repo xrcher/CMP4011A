@@ -10,8 +10,9 @@ document.addEventListener("DOMContentLoaded", () => {
             return response.json();
         })
         .then((data) => {
+            const teamData = data.team;
             teamContainer.innerHTML = "";
-            data.forEach((member, index) => {
+            teamData.forEach((member, index) => {
 
                 const column = document.createElement("div");
                 column.classList.add("column");
@@ -26,6 +27,20 @@ document.addEventListener("DOMContentLoaded", () => {
                 `;
                 teamContainer.appendChild(column);
             });
+            //footer list
+            const footerContainer = document.getElementById('footer');
+            data.footer.forEach(footer => {
+
+            const footerTitle = document.createElement('h2');
+            footerTitle.textContent = footer.title;
+
+            const footerDescription = document.createElement('p');
+            footerDescription.textContent = footer.description;
+
+            //footer container item creator
+            footerContainer.appendChild(footerTitle);
+            footerContainer.appendChild(footerDescription);
+        });
         })
         .catch((error) => {
             console.error("Error fetching team data:", error);
