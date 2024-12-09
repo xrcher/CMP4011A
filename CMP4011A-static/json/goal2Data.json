@@ -1,0 +1,33 @@
+{
+  "goal": "SDG 13:\nClimate Action",
+  "overview": "SDG Goal 13 focuses on taking urgent action to combat climate change and its impacts. Climate change is one of the most significant threats to our planet, affecting ecosystems, economies, and communities globally. This goal underscores the need for global efforts to mitigate climate change, build resilience, and support vulnerable populations.",
+  "progress": "Climate change is a global challenge that demands urgent, collective action. By achieving SDG Goal 13, we can limit global warming, protect vulnerable communities, and ensure a sustainable future for our planet.",
+  "keyTargets": [
+    {
+      "title": "1. Strengthen Resilience and Adaptation",
+      "description": "Improve the ability of countries and communities to adapt to climate-related hazards and natural disasters."
+    },
+    {
+      "title": "2. Integrate Climate Policies",
+      "description": "Ensure that climate change measures are integrated into national policies, strategies, and planning to promote sustainable development."
+    },
+    {
+      "title": "3. Increase Capacity Building",
+      "description": "Enhance education, awareness, and institutional capacity on climate change mitigation, adaptation, impact reduction, and early warning systems."
+    },
+    {
+      "title": "4. Promote Financing",
+      "description": "Mobilize financial resources to support climate actions, especially in developing countries, to strengthen their climate resilience."
+    },
+    {
+      "title": "5. Global Collaboration",
+      "description": "Support the commitments under the United Nations Framework Convention on Climate Change (UNFCCC), including achieving climate-related goals under international agreements like the Paris Accord."
+    }
+  ],
+  "footer": [
+    {
+      "title": "Copyright © 2024 United Nations",
+      "description": "Made by PJ, Vinisha, VJ and Archer ❤️"
+    }
+  ]
+}

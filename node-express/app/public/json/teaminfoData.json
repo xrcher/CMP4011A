@@ -1,0 +1,30 @@
+{
+    "team":[
+        {
+            "name": "Ved Joshi",
+            "bio": "Computer Science Student",
+            "image": "ved-joshi"
+        },
+        {
+            "name": "Pio Fausto",
+            "bio": "Computer Science Student",
+            "image": "pio-fausto"
+        },
+        {
+            "name": "Archer Wilson",
+            "bio": "Business Information Student",
+            "image": "archer-wilson"
+        },
+        {
+            "name": "Vinisha Yadav",
+            "bio": "Computer Science Student",
+            "image": "vinisha-yadav"
+        }
+    ],
+    "footer": [
+        {
+            "title": "Copyright © 2024 United Nations",
+            "description": "Made by PJ, Vinisha, VJ and Archer ❤️"
+        }
+    ]
+}
