@@ -1,0 +1,22 @@
+{
+  "name": "cmpwebsite",
+  "version": "1.0.0",
+  "description": "CMP4011A Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xrcher/CMP4011A.git"
+  },
+  "author": "C1",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "bugs": {
+    "url": "https://github.com/xrcher/CMP4011A/issues"
+  },
+  "homepage": "https://github.com/xrcher/CMP4011A#readme"
+}
