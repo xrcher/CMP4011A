@@ -297,10 +297,7 @@ style.background{
     font-size: 25px;
 }
 
-/* .g1content{
-    animation: fade-in 3s;
-    animation-timeline: view(); 
-} */
+
 .statistic{
     font-size: 30px;
     font-weight: bold;
@@ -308,12 +305,8 @@ style.background{
     animation-timeline: view();
     z-index: 500;
     padding: 30px 0 30px 0;
+    background-color: rgba(0, 0, 0, 0.6);
 }
-
-/* .goal1Contentbox:hover{
-    animation: fade-in 3s;
-    animation-timeline: view(); 
-} */
 
 
 
@@ -435,10 +428,7 @@ footer p {
     #goal1Contentbox{
         display: none;
     }
-    .goalsMenu{
-        display: flex;
-        flex: auto;
-    }
+
 }
 
 /*=================================================================================*/
