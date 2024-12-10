@@ -424,25 +424,24 @@ footer p {
     background-color: rgb(91, 175, 201);
 }
 
-.team{
+.squad{
     padding-top: 95px;
     height: 100vh;
 }
 
-.container{
+.box{
     width: 70%;
     margin: auto auto;
 }
 
-
-.row h1{
+.width h1{
     color: #fff;
     text-align: center;
     font-weight: 700;
     font-size: 48px;
 }
 
-.row p{
+.width p{
     margin-top: 50px;
     color: #fff;
     text-align: center;
@@ -454,7 +453,7 @@ footer p {
     margin-top: 50px;
 }
 
-.row .column{
+.width .length{
     margin: 10px;
     position: relative;
     width: calc(25% - 25px);
@@ -466,36 +465,36 @@ footer p {
     border-radius: 5px;
 }
 
-.row .column .imgBox img{
+.width .length .img-box img{
     width: 100%;
     height: 100%;
     transition: 5s;
 }
 
-.row .column .imgBox:hover img{
+.width .length .img-box:hover img{
     transform: scale(1.15);
 }
 
-.row .column .details{
+.width .length .info{
     position: absolute;
     bottom: -70px;
     padding: 10px;
     box-sizing: border-box;
-    background: rgba(0, 0, 0, .9);
+    background: rgba(0, 0, 0, 0.9);
     width: 100%;
     transition: 0.5s;
 }
 
-.row .column:hover .details{
+.width .length:hover .info{
     bottom: 0;
 }
 
-.row .column .details h3{
+.width .length .info h3{
     color: #fff;
     font-weight: 500;
 }
 
-.row .column .details h3 span{
+.width .length .info h3 span{
     font-size: 14px;
     color: rgb(41, 202, 111);
     font-weight: 900;
