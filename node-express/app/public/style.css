@@ -580,3 +580,7 @@ span{
 .hide{
     display: none;
 }
+
+.send-icon{
+    width: 30px;
+}
