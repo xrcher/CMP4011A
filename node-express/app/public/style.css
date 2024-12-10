@@ -477,7 +477,7 @@ footer p {
     float: left;
     box-sizing: border-box;
     overflow: hidden;
-    border-radius: 5px;
+    border-radius: 5px; 
 }
 
 .width .length .img-box img{
@@ -552,7 +552,6 @@ form{
     background: #fff;
     display: flex;
     justify-content: space-between;
-    
 }
 
 form input{
