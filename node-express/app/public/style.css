@@ -449,14 +449,14 @@ footer p {
     border-right: 5px solid rgb(59, 6, 138);
 }
 
-.mgt50px{
-    margin-top: 50px;
+.width{
+    margin-top: 20px;
 }
 
 .width .length{
     margin: 10px;
     position: relative;
-    width: calc(25% - 25px);
+    width: calc(25% - 20px);
     min-height: 285px;
     background: #fff;
     float: left;
@@ -486,7 +486,7 @@ footer p {
 }
 
 .width .length:hover .info{
-    bottom: 0;
+    bottom: 0px;
 }
 
 .width .length .info h3{
