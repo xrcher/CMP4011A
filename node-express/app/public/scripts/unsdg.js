@@ -15,8 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 responseData.forEach((item) => {
 
                     //Goal 1
-                    const goal1title = titleElement1;
-                    goal1title.textContent = item.a1;
+                    titleElement1.textContent = item.a1;
                     const goal1content= document.createElement("article");
                     const goal1stat1=document.createElement("p");
                     goal1stat1.setAttribute("class","statistic");
@@ -30,8 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
                     //Goal 2
-                    const goal2title = titleElement2;
-                    goal2title.textContent = item.b1;
+                    titleElement2.textContent = item.b1;
                     const goal2content=document.createElement("article");
                     const goal2stat1=document.createElement("p");
                     goal2stat1.textContent=item.b2;
@@ -42,8 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
                     //Goal 3
-                    const goal3title = titleElement3;
-                    goal3title.textContent=item.c1;
+                    titleElement3.textContent=item.c1;
                     const goal3content=document.createElement("article");
                     const goal3stat1=document.createElement("p");
                     goal3stat1.textContent=item.c2;
