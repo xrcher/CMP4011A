@@ -1,7 +1,7 @@
 //=========================================teaminfo.html========================================//
 
 document.addEventListener("DOMContentLoaded", () => {
-    const teamContainer = document.querySelector(".row.mgt50px");
+    const teamContainer = document.querySelector(".width.mgt50px");
     fetch("json/teaminfoData.json")
         .then((response) => {
             if (!response.ok) {
@@ -10,22 +10,22 @@ document.addEventListener("DOMContentLoaded", () => {
             return response.json();
         })
         .then((data) => {
-            const teamData = data.team;
+            const teamData = data.squad;
             teamContainer.innerHTML = "";
             teamData.forEach((member, index) => {
 
-                const column = document.createElement("div");
-                column.classList.add("column");
-                column.innerHTML = `
-                    <div class="imgBox">
+                const length = document.createElement("div");
+                length.classList.add("length");
+                length.innerHTML = `
+                    <div class="img-box">
                         <img src="assets/teamimgs/${member.image}.jpg" alt="Team member photo ${member.image}">
                     </div>
-                    <div class="details">
+                    <div class="info">
                         <h3>Member Name: <br><span>${member.name}</span></h3>
                         <p class="bio">${member.bio}</p>
                     </div>
                 `;
-                teamContainer.appendChild(column);
+                teamContainer.appendChild(length);
             });
             //footer list
             const footerContainer = document.getElementById('footer');

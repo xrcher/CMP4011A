@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     const goal2content=document.createElement("article");
                     const goal2stat1=document.createElement("p");
                     goal2stat1.textContent=item.b2;
-                    goal2stat1.setAttribute("class","statistic")
+                    goal2stat1.setAttribute("class","statistic");
 
                     goal2content.appendChild(goal2stat1);
                     goal2contentElement.appendChild(goal2content);
@@ -47,9 +47,9 @@ document.addEventListener("DOMContentLoaded", () => {
                     const goal3content=document.createElement("article");
                     const goal3stat1=document.createElement("p");
                     goal3stat1.textContent=item.c2;
-                    goal3stat1.setAttribute("class","statistic")
+                    goal3stat1.setAttribute("class","statistic");
 
-                    goal3content.appendChild(goal3stat1)
+                    goal3content.appendChild(goal3stat1);
                     goal3contentElement.appendChild(goal3stat1);
 
 

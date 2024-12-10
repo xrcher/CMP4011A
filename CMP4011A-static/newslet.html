@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
 <head>
     <title>Sustainability Advisory Committee: Newsletter</title>
@@ -35,8 +35,12 @@
         <div class="signup-content">
             <h1>Signup to our newsletter and stay updated! <br> Right below!</h1>
                 <form id="signup-form">
+                    <input type="text" name="fullname" id="fullname" placeholder="Your full name" required>
+
                     <input type="email" name="Email" placeholder="Your email id" required>
-                    <button type="submit"><img src="assets/newslet/send-icon.png" alt="send-icon" width="30px"></button>
+                    
+                    <textarea name="message" id="message" placeholder="Your full name"></textarea>
+                    <button type="submit"><img src="assets/newslet/send-icon.png" alt="send-icon" class="send-icon"></button>
                 </form>
                 <span id="thanks-message" class="hide">Thank you for signing up!</span>
 
