@@ -1,8 +1,16 @@
 [
     {
       "a1": "Affordable and Clean Energy",
-      
+      "a2":"From 2015 to 2022 the number of people lacking electricity dropped from",
+      "a3":"958 million to 685 million",
+      "a4":"Over the same time period, the number of people without clean cooking fuels declined from ",
+      "a5":"2.8 billion to 2.1 billion",
+      "a6":"Despite this, an estimated 660 million people will still lack electricity access and around 1.8 billion will go without clean cooking fuels and technologies by 2030",
+
+
+   
       "b1": "Climate Action",
+      
       
       "c1": "Life on Land"
     }

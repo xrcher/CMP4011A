@@ -31,6 +31,7 @@ nav{
     padding: 10px;
     border-top-right-radius: 0;
     border-top-left-radius: 0;
+    z-index: 1000;
 }
 
 .shadow {
@@ -264,12 +265,10 @@ style.background{
 @keyframes fade-in{
     0%{
         opacity: 0;
-        transform: translateY(30px) scale(0.5);
     }
 
     100%{
         opacity: 1;
-        transform: scale(1);
     }
 
     
@@ -292,10 +291,29 @@ style.background{
     color: #fff;
 }
 
-.goal1Contentbox:hover{
+
+
+.goalCardtext{
+    font-size: 25px;
+}
+
+/* .g1content{
     animation: fade-in 3s;
     animation-timeline: view(); 
+} */
+.statistic{
+    font-size: 30px;
+    font-weight: bold;
+    animation: fade-in 3s;
+    animation-timeline: view();
+    z-index: 500;
+    padding: 30px 0 30px 0;
 }
+
+/* .goal1Contentbox:hover{
+    animation: fade-in 3s;
+    animation-timeline: view(); 
+} */
 
 
 
@@ -331,17 +349,13 @@ style.background{
 .goalButton{
     text-decoration: none;
     font-size: 30px;
-    padding: 30px;
-    display: flex;
     color: white;
-    position: absolute;
-    top: 550px;
-    left: 500px;
     transition: 0.3s;
 }
 
 .goalButton:hover{
-    background-color: #000; 
+    opacity: 1;
+    background: #000;
 }
 
 
@@ -413,6 +427,17 @@ footer p {
 
     .sec1 h1{
         font-size: 40px;
+    }
+
+    .sec1 h1{
+        font-size: 40px;
+    }
+    #goal1Contentbox{
+        display: none;
+    }
+    .goalsMenu{
+        display: flex;
+        flex: auto;
     }
 }
 
